@@ -7,7 +7,7 @@ const app = express()
 app.get('/api/goals',(res,req)=>{
     //function accepts a single parameter body that describe the body which is to be sent in the response
     //It returns an Object
-    res.status(200).send('Get Goals')
+    // res.status(200).send('Get Goals')
 
     // function sends a JSON response. This method sends a response (with the correct content-type)
     //that is the parameter converted to a JSON string using the JSON.stringify()method.
