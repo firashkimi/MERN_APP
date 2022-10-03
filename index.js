@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000
 const app = express()
 
 //First Route 
-app.get('/api/goals',(res,req)=>{
+app.get('/api/goals',(req,res)=>{
     //function accepts a single parameter body that describe the body which is to be sent in the response
     //It returns an Object
     // res.status(200).send('Get Goals')
